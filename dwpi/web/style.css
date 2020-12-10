@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+body {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+}
+#logo {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#logo span {
+  display: inline-block;
+}
+nav {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+footer {
+  background: #222;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+footer img {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+.main {
+  min-height: 800px;
+  text-align: center;
+  background-color: #F0FFFF;
+  background-size: cover;
+}
+.main-content {
+  color: #2F4F4F;
+  padding-top: 50px;
+}
+.main-content h1 {
+  font-size: 100px;
+  margin: 0;
+}
+.main-content p {
+  font-size: 50px;
+}
+.main-content a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+}
+input, select, option {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.btn {
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.btn-info {
+  background-color: #337ab7;
+  color: white;
+}
+.btn-danger {
+  background-color: #d9534f;
+  color: white;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+th, td {
+  text-align: center;
+  padding: 16px;
+  border-bottom: 1px solid gray
+}
+th:first-child, td:first-child {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.th {
+  width:50%
+}
